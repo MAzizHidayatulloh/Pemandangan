@@ -3,15 +3,19 @@ void setup(){
   size(1000,800);
 
 }
-
+float a;
 void awan(float x,float y){
+   a =a+1;
+   if (a>500){
+   a=-300;
+}
 noStroke();
 fill(#EFF0ED);
-ellipse(240, 100, 120, 90);
-ellipse(260, 105, 110, 115);
-ellipse(310, 105, 120, 130);
-ellipse(340, 105, 110, 115);
-ellipse(360, 105, 110, 90);
+ellipse(240+a, 100, 120, 90);
+ellipse(260+a, 105, 110, 115);
+ellipse(310+a, 105, 120, 130);
+ellipse(340+a, 105, 110, 115);
+ellipse(360+a, 105, 110, 90);
 }
 
 float m2=0;
@@ -109,7 +113,7 @@ void draw(){
   background(200,100,0);
   gunung();
   matahari();
-  awan();
+  awan(a,1);
   tebing();
   airterjun();
   tanah();
