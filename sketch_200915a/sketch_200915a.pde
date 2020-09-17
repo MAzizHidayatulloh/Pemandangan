@@ -4,7 +4,7 @@ void setup(){
 
 }
 
-void awan(){
+void awan(float x,float y){
 noStroke();
 fill(#EFF0ED);
 ellipse(240, 100, 120, 90);
