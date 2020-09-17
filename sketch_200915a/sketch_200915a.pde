@@ -14,6 +14,8 @@ ellipse(340, 105, 110, 115);
 ellipse(360, 105, 110, 90);
 }
 
+float m2=0;
+float m1=0;
 void matahari(){
   fill(#EBFC03);
   ellipse(370, 70, 100, 100);
